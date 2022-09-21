@@ -1,0 +1,203 @@
+@media only screen and (max-width: 1440px) {
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string,
+  .willing-string {
+    font-size: 1.8rem;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string,
+  .willing-string {
+    font-size: 2rem;
+  }
+  .horisontal-line {
+    margin: 2% 0 6%;    
+  }
+  .cv__category-title {
+    margin: 8% 2% 2% 14%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .wrapper {
+    min-width: 92vw;
+    max-width: 92vw;
+  }
+  .horisontal-line {
+    margin: 3% 0 9%;    
+  }
+  .cv__category-title {
+    margin: 8% 2% 2% 14%;
+  }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string,
+  .willing-string {
+    line-height: 3.6rem;
+  }
+  .horisontal-line {
+    margin: 3% 0 12%;
+  }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .wrapper {
+    min-width: 94vw;
+    max-width: 94vw;
+    border-radius: 12px;
+  }
+
+.person__photo-name {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.person__photo {
+  width: 60%;
+}
+.person__photo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+  text-align: center;
+}
+.person__name {
+  margin: 4% 0 3%;
+  font-size: 5rem;
+  font-weight: 200;
+  line-height: 5rem;
+}
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string,
+  .willing-string {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+  .willing-string {
+    padding: 7% 0 4%;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .person__photo-info {
+    width: 96%;
+  }
+    .person__name {
+    font-size: 4.8rem;
+  }
+  .willing-string {
+    padding: 8% 0 6%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .person__photo-info {
+    width: 98%;
+  }
+    .person__name {
+    font-size: 4.6rem;
+  }
+  .willing-string {
+    padding: 10% 0 7%;
+  }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .person__photo {
+    width: 70%;
+  }
+  .person__name {
+    font-size: 4.4rem;
+    line-height: 4.6rem;
+  }
+  .willing-string {
+    padding: 12% 0 8%;
+  }
+}
+
+@media only screen and (max-width: 460px) {
+  .person__photo {
+    width: 74%;
+  }
+  .person__name {
+    font-size: 4.2rem;
+    line-height: 4.4rem;
+  }
+  .willing-string {
+    padding: 14% 0 9%;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .person__photo {
+    width: 78%;
+  }
+  .person__name {
+    font-size: 4rem;
+    line-height: 4.2rem;
+  }
+  .willing-string {
+    padding: 16% 0 10%;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .person__photo-info {
+    width: 100%;
+  }
+  .person__photo {
+    width: 80%;
+  }
+  .person__name {
+    font-size: 3.7rem;
+    line-height: 4rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .wrapper {
+    min-width: 96vw;
+    max-width: 96vw;
+    padding: 0;
+    margin: 0 auto;
+    border-radius: 0;
+    box-shadow: unset;
+  }
+  .beta {
+    padding-right: 4%;
+  }
+  
+  .person__photo {
+    width: 88%;
+  }
+  .person__name {
+    font-size: 3.4rem;
+    line-height: 3.8rem;
+  }
+  .horisontal-line {
+    margin: 4% 0 16%;
+  }
+  .cv__category-title {
+    margin: 18% 2% 2% 10%;
+  }
+  .cv__category-string,
+  .person__education-string,
+  .person__language-string {
+    padding: 0 2%;
+  }
+}
+
+/* Custom, iPhone Retina */
+/* @media only screen and (max-width: 320px) {} */

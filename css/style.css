@@ -1,0 +1,76 @@
+.wrapper {
+  min-width: 80vw;
+  max-width: 80vw;
+  padding: 2%;
+  margin: 4% auto;
+  border-radius: 16px;
+  box-shadow: 0 0 24px rgba(108, 118, 160, 0.6);
+}
+.beta {
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-align: end;
+  color: rgba(108, 118, 160, 0.6);
+}
+.person__photo-name {
+  display: flex;
+  justify-content: space-between;
+  align-items: initial;
+}
+.person__photo {
+  width: 25%;
+}
+.person__photo img {
+  width: 100%;
+  text-align: center;
+}
+.person__photo-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 71%;
+}
+.person__name {
+  margin: 4% 0 3%;
+  font-size: 5rem;
+  font-weight: 200;
+}
+.clickable-icon {
+  line-height: 3rem;
+}
+.clickable-icon__string {
+  font-size: 1.8rem;
+}
+.person__target {
+  padding: 2% 0;
+  font-size: 1.6rem;
+  font-style: italic;
+  line-height: 3rem;
+}
+.horisontal-line {
+  border-color: rgb(108, 118, 160);
+  background-color: rgb(108, 118, 160);
+  color: rgb(108, 118, 160);
+}
+.cv__category-string a,
+.person__education-string a {
+  color: rgb(46, 49, 62);
+  text-decoration: none;
+}
+.cv__category-title {
+  margin: 6% 2% 2% 14%;
+  font-size: 3rem;
+}
+.cv__category-string {
+  padding: 0;
+}
+.person__education-string {
+  padding: 0;
+}
+.person__language-string {
+  padding: 0;
+}
+.willing-string {
+  padding: 4% 0;
+  text-align: center;
+}
